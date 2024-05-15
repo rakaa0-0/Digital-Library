@@ -9,8 +9,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     --main-hue: 208;
-    --main-color: #009070;
-    --main-color-hover: #008064;
+    --main-color: #7f0000;
+    --main-color-hover: #7f0000;
     --text-color: #000;
     --text-light-color: #9ca7b6;
     --input-bg: hsla(var(--main-hue), 50%, 50%, 6.5%);
@@ -69,6 +69,7 @@ header ul {
 }
 
 .left {
+    background: url("/img/regstar.png");
     width: 100%;
     max-width: 80rem;
     margin: 0 auto;
@@ -77,7 +78,7 @@ header ul {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     position: relative;
-    z-index: 3;
+   
 }
 
 .main-heading h1 {
@@ -217,20 +218,28 @@ a {
     transition: .3s;
 }
 
-ul {
+.footer{
     margin-top: 20px;
-    display: contents;
-    text-align: right;
-    text-decoration: none;
-    color: #111111;
-    font-size: 0.9rem;
+    text-align: center;
+}
+
+ul {
+	
+	display: contents;
+	text-align: center;
+	text-decoration: none;
+	color: #111111;
+	font-size: 0.9rem;
+    align-items: center;
 }
 
 ul a {
-    margin-top: 30px;
-    display: contents;
-    color: #999;
-    font-size: 0.9rem;
+	margin-top: 20px;
+	display: contents;
+	text-align: center;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
 }
 
 a:hover {
@@ -259,4 +268,43 @@ a:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     bottom: 0;
+}
+
+@media screen and (max-width: 1050px) {
+	.container {
+		grid-gap: 5rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	form {
+		width: 350px;
+	}
+
+	.main-heading {
+		font-size: 2.4rem;
+		margin: 8px 0;
+	}
+
+	.img img {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		grid-template-columns: 1fr;
+	}
+
+	.img {
+		display: none;
+	}
+
+	.right{
+		display: none;
+	}
+
+	.login-content {
+		justify-content: center;
+	}
 }
