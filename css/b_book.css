@@ -135,14 +135,14 @@ input[type=text] {
     justify-items: center;
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(1, 3fr);
+    grid-template-columns: repeat(2, 3fr);
     gap: 2rem;
 }
 
 .collection-card {
     align-items: center;
     margin-left: 30px;
-    width: 50%;
+    width: 75%;
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
@@ -183,6 +183,61 @@ input[type=text] {
 .populer-card img{
     width: 2%;
     display: flex;
+}
+
+/* footer */
+
+.footer-container {
+    padding: 50px;
+    background-color: var(--primary-color);
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-col h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white-text-color);
+}
+
+.footer-col p {
+    margin-bottom: 1rem;
+    color: var(--white-text-color);
+}
+
+.footer-col h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--white-text-color);
+}
+
+.footer-col a {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--white-text-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    font-weight: 700;
+}
+
+.footer-col p span {
+    margin-right: 0.5rem;
+    color: var(--white-text-color);
+}
+
+.footer-bar {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: var(--white-text-color);
 }
 
 
