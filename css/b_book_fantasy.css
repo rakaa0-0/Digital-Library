@@ -183,10 +183,8 @@ input[type=text] {
     display: flex;
 }
 
-.button{
-    align-items: center;
-    top: 50%;
-    left: 50%;
+.btn{
+    justify-items: center;
 }
 
 .button-38 {
@@ -261,12 +259,11 @@ input[type=text] {
 
   /* footer */
 
-  .footer-container {
-    margin-top: 30px;
-    padding-top: 4rem;
+.footer-container {
+    padding: 50px;
     background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: 1fr repeat(1, 1fr);
+    grid-template-columns: 2fr repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -279,7 +276,7 @@ input[type=text] {
 
 .footer-col p {
     margin-bottom: 1rem;
-    color: var(--text-light);
+    color: var(--white-text-color);
 }
 
 .footer-col h4 {
@@ -292,18 +289,18 @@ input[type=text] {
 .footer-col a {
     display: block;
     margin-bottom: 1rem;
-    color: var(--text-light);
+    color: var(--white-text-color);
     cursor: pointer;
     transition: 0.3s;
 }
 
 .footer-col a:hover {
-    color: var(--primary-color);
+    font-weight: 700;
 }
 
 .footer-col p span {
     margin-right: 0.5rem;
-    color: var(--primary-color);
+    color: var(--white-text-color);
 }
 
 .footer-bar {
@@ -313,3 +310,4 @@ input[type=text] {
     font-size: 0.8rem;
     color: var(--white-text-color);
 }
+
