@@ -24,6 +24,7 @@ a {
 }
 
 body {
+    overflow: hidden; /* Hide scrollbars */
     font-family: "Lato", sans-serif;
 }
 
