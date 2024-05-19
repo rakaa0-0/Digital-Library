@@ -161,6 +161,29 @@ input[type=text] {
     font-family: Dosis;
 }
 
+.btn-love{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-text-color);
+    background: #945757;
+    border: none;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.btn-love:hover{
+    color: var(--black-text-color);
+    text-decoration: none;
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    transition: .4s;
+}
+
 .content .main-text a{
     display: inline-block;
     text-decoration: none;
