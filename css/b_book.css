@@ -25,6 +25,7 @@ a {
 
 body {
     font-family: "Lato", sans-serif;
+    
 }
 
 header {
@@ -110,6 +111,8 @@ input[type=text] {
     background: #f9f9f9;
     padding-bottom: 25px;
     padding-top: 8rem;
+    background: url("/img/backgroundbulat.png");
+    background-size: cover;
 }
 
 .content{
@@ -149,6 +152,10 @@ input[type=text] {
     transition: 0.3s;
 }
 
+.collection-card img{
+    width: 100%;
+}
+
 .collection-card:hover {
     transform: scale(1.1);
     font-size: 40px;
@@ -159,7 +166,7 @@ input[type=text] {
     margin-top: 1rem;
     font-weight: 700;
     font-size: 1.25rem;
-    color: var(--text-dark);
+    color: #000000;
 }
 
 /* bbbbb */

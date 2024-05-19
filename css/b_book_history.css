@@ -113,6 +113,8 @@ input[type=text] {
 }
 
 .content{
+    background: url("/img/backgroundstar.png");
+    background-size: cover;
     margin: 0 50px;
 }
 
@@ -145,6 +147,10 @@ input[type=text] {
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
+}
+
+.collection-card a{
+    color: var(--black-text-color);
 }
 
 .collection-card:hover {

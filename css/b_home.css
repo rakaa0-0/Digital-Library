@@ -25,6 +25,8 @@ a {
 
 body {
     font-family: "Lato", sans-serif;
+    background: url("/img/backgroundbulat.png");
+    background-size: cover;
 }
 
 header {
@@ -107,7 +109,7 @@ input[type=text] {
 /* Main */
 
 .section-container {
-    background: url(/img/bghome.png);
+    
 }
 
 .banner {
@@ -145,6 +147,10 @@ input[type=text] {
     transition: 0.3s;
 }
 
+.collection-card a{
+    color: var(--black-text-color);
+}
+
 .collection-card:hover {
     transform: scale(1.1);
     font-size: 40px;
@@ -177,6 +183,7 @@ input[type=text] {
     text-align: left;
     font-family: Dosis;
     margin-left: 175px;
+    margin-top: 25px;
 }
 
 .head-header p{
@@ -199,7 +206,7 @@ input[type=text] {
 }
 
 .populer-grid img{
-    width: 85%;
+    width: 75%;
     display: flex;
 }
 
@@ -219,6 +226,7 @@ input[type=text] {
 /* footer */
 
 .footer-container {
+    margin-top: 25px;
     padding: 50px;
     background-color: var(--primary-color);
     display: grid;
